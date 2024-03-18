@@ -23,4 +23,4 @@
       #- { name: "roboshop-terraform", folder: "roboshop-project/Infra-Jobs", repo: "https://github.com/raghudevopsb76/roboshop-terraform", filename: "Jenkinsfile"}
 
     #fs_jobs:
-      - { name: "prometheus-reload", folder: "miscellaneous", filename: "prometheus-reload.xml"}
+      #- { name: "prometheus-reload", folder: "miscellaneous", filename: "prometheus-reload.xml"}
