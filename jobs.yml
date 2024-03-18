@@ -17,9 +17,9 @@
     sb_jobs:
       - { name: "expense-ansible", folder: "expense-project/Infra-Jobs", repo: "https://github.com/devopsmins/expense-ansible"}
       - { name: "expense-terraform", folder: "expense-project/Infra-Jobs", repo: "https://github.com/devopsmins/expense-terraform"}
-      - { name: "golden-ami", folder: "miscellaneous", repo: "https://github.com/devopsmins/golden-ami", filename: "Jenkinsfile"}
-      - { name: "aws-parameters", folder: "miscellaneous", repo: "https://github.com/devopsmins/aws-parameter-store", filename: "Jenkinsfile"}
-      - { name: "jenkins-ip-update", folder: "miscellaneous", repo: "https://github.com/devopsmins/miscellaneous-tasks", filename: "jenkins-ip-update/Jenkinsfile"}
+      - { name: "golden-ami", folder: "miscellaneous", repo: "https://github.com/devopsmins/golden-ami"}
+      - { name: "aws-parameters", folder: "miscellaneous", repo: "https://github.com/devopsmins/aws-parameter-store"}
+      - { name: "jenkins-ip-update", folder: "miscellaneous", repo: "https://github.com/devopsmins/miscellaneous-tasks"}
       #- { name: "roboshop-terraform", folder: "roboshop-project/Infra-Jobs", repo: "https://github.com/raghudevopsb76/roboshop-terraform", filename: "Jenkinsfile"}
 
 
