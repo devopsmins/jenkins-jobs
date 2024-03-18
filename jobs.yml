@@ -5,8 +5,8 @@
   vars:
     folders:
       - { name: "expense-project"}
-      #- { name: "expense-project/CI-Jobs"}
-      #- { name: "expense-project/Infra-Jobs"}
+      - { name: "expense-project/CI-Jobs"}
+      - { name: "expense-project/Infra-Jobs"}
       #- { name: "miscellaneous"}
       #- { name: "roboshop-project"}
       #- { name: "roboshop-project/CI-Jobs"}
