@@ -8,9 +8,9 @@
       - { name: "expense-project/CI-Jobs"}
       - { name: "expense-project/Infra-Jobs"}
       - { name: "miscellaneous"}
-      #- { name: "roboshop-project"}
-      #- { name: "roboshop-project/CI-Jobs"}
-      #- { name: "roboshop-project/Infra-Jobs"}
+      - { name: "roboshop-project"}
+      - { name: "roboshop-project/CI-Jobs"}
+      - { name: "roboshop-project/Infra-Jobs"}
     mb_jobs:
       - { name: "expense-backend", folder: "expense-project/CI-Jobs", repo: "https://github.com/devopsmins/expense-backend"}
       - { name: "expense-frontend", folder: "expense-project/CI-Jobs", repo: "https://github.com/devopsmins/expense-frontend"}
@@ -20,7 +20,7 @@
       - { name: "golden-ami", folder: "miscellaneous", repo: "https://github.com/devopsmins/golden-ami", filename: "Jenkinsfile"}
       - { name: "aws-parameters", folder: "miscellaneous", repo: "https://github.com/devopsmins/aws-parameter-store", filename: "Jenkinsfile"}
       - { name: "jenkins-ip-update", folder: "miscellaneous", repo: "https://github.com/devopsmins/miscellaneous-tasks", filename: "jenkins-ip-update/Jenkinsfile"}
-      #- { name: "roboshop-terraform", folder: "roboshop-project/Infra-Jobs", repo: "https://github.com/raghudevopsb76/roboshop-terraform", filename: "Jenkinsfile"}
+      - { name: "roboshop-terraform", folder: "roboshop-project/Infra-Jobs", repo: "https://github.com/devopsmins/roboshop-terraform", filename: "Jenkinsfile"}
 
 
     #fs_jobs:
